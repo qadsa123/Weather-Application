@@ -1,3 +1,3 @@
 # Weather-Application
 
-Using AJAX (XMLHttpRequest
+Using AJAX (XMLHttpRequest)
