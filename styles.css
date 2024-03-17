@@ -3,23 +3,66 @@ body {
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
-}
-h1{
-    text-align: center;
-}
-div{
-    padding: 10px
-}
-#weather-form {
-    display: inline-block;
-    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-#weather-info {
+header {
+    background-color: #29455d;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+div {
+    padding: 10px;
+    margin: 60px auto;
+    width: 400px;
+    
+    box-sizing: border-box;
+    border: 1px solid #29455d;
+    border-radius: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #29455d;
+    color: white;
+    padding: 10px;
     text-align: center;
 }
+
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
