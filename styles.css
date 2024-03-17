@@ -1,0 +1,25 @@
+body {
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+div{
+    padding: 10px
+}
+#weather-form {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#weather-info {
+    text-align: center;
+}
